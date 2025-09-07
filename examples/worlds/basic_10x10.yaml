@@ -1,0 +1,12 @@
+# 10x10 grid; 1 cell = 10 cm
+width: 10
+height: 10
+start: [1, 8, 0]   # x, y, heading_deg
+goal:  [8, 2]
+obstacles:
+  - [4,4]
+  - [4,5]
+  - [4,6]
+  - [5,6]
+  - [6,6]
+cell_cm: 10.0
